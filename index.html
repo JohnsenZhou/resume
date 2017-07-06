@@ -402,7 +402,10 @@
 			</div>
 		  </div>
 	    </div>
-	  </div><!-- end #container -->
+	</div><!-- end #container -->
+	<div class='gotop'>
+		<b class='fa-chevron-up'>⇧</b>
+	</div>
 	</div><!-- end #body -->
 	<script>
 	
@@ -423,8 +426,24 @@
 					$('#header').css('opacity', '1');
 				} else {
 					$('#header').css('opacity', '0');
+				};
+				if ($(this).scrollTop() > 150) { // If the scroll equal 150px
+					$(".gotop").css({width:"40px",borderRadius:"50px"}); // Show the button by give it (width 40px and border-radius 0px)
+				} else { // else (if the scroll <= 150px )
+					$(".gotop").css({width:"0",borderRadius:"50% 0 0 50%"}); // Return button style to default
 				}
 			})
+			// 返回顶部
+			$('.gotop').click(function () { // When user click on the button
+				$("body").animate({ scrollTop: "0" },  500); // Return scroll to 0
+				$("body").css({paddingTop:"20px"});
+				// After .5s (when window scroll equal 0)
+				setTimeout(function(){
+					$("body").animate({ 
+					'padding-top' : 0,
+					}, "fast");
+				}, 500);
+			});
 			//技能评价
 			//项目经验的title与icon的距离计算，防止老账号有项目经验
 			var projectTitle = $('#projectList .l2 .projectTitle');
