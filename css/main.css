@@ -330,18 +330,18 @@ span.mr_women i.active{background-position:-27px -5px;}
 .mr_sns a em{position:absolute; top:20px;left:50%;margin-left:-4px;font-size:0px; height:0; width:0; border-width:4px 4px 0; border-style:solid dashed; border-color:#666 transparent transparent;overflow: hidden;-webkit-transition:all 0.4s ease 0s;-moz-transition:all 0.4s ease 0s;-o-transition:all 0.4s ease 0s;transition:all 0.4s ease 0s;}
 .mr_sns .mr0{margin-right:0;}
 .mr_sns i{display:inline-block;width:30px;background:none;height:30px;margin-right:17px;}
-.mr_sns .sns1,.mr_sns_m .sns1,.mr_add_m .sns1{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -4px -5px no-repeat;}
-.mr_sns .sns2,.mr_sns_m .sns2,.mr_add_m .sns2{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -56px -5px no-repeat;}
-.mr_sns .sns3,.mr_sns_m .sns3,.mr_add_m .sns3{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -108px -5px no-repeat;}
-.mr_sns .sns4,.mr_sns_m .sns4,.mr_add_m .sns4{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -160px -5px no-repeat;}
+.mr_sns .sns1,.mr_sns_m .sns1,.mr_add_m .sns1{background:url(../img/sns_bg.png) -4px -5px no-repeat;}
+.mr_sns .sns2,.mr_sns_m .sns2,.mr_add_m .sns2{background:url(../img/sns_bg.png) -56px -5px no-repeat;}
+.mr_sns .sns3,.mr_sns_m .sns3,.mr_add_m .sns3{background:url(../img/sns_bg.png) -108px -5px no-repeat;}
+.mr_sns .sns4,.mr_sns_m .sns4,.mr_add_m .sns4{background:url(../img/sns_bg.png) -160px -5px no-repeat;}
 .mr_sns .sns5,.mr_sns_m .sns5,.mr_add_m .sns5{background:url(../img/juejin.png) no-repeat;background-size: 30px;}
-.mr_sns .sns6,.mr_sns_m .sns6,.mr_add_m .sns6{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -263px -5px no-repeat;}
-.mr_sns .sns7,.mr_sns_m .sns7,.mr_add_m .sns7{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -314px -5px no-repeat;}
-.mr_sns .sns8,.mr_sns_m .sns8,.mr_add_m .sns8{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -366px -5px no-repeat;}
-.mr_sns .sns9,.mr_sns_m .sns9,.mr_add_m .sns9{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -417px -5px no-repeat;}
-.mr_sns .sns10,.mr_sns_m .sns10,.mr_add_m .sns10{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -469px -5px no-repeat;}
-.mr_sns .sns11,.mr_sns_m .sns11,.mr_add_m .sns11{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -520px -5px no-repeat;}
-.mr_sns .sns12,.mr_sns_m .sns12,.mr_add_m .sns12{background:url(http://www.lagou.com/images/myresume/sns_bg.png) -572px -5px no-repeat;}
+.mr_sns .sns6,.mr_sns_m .sns6,.mr_add_m .sns6{background:url(../img/sns_bg.png) -263px -5px no-repeat;}
+.mr_sns .sns7,.mr_sns_m .sns7,.mr_add_m .sns7{background:url(../img/sns_bg.png) -314px -5px no-repeat;}
+.mr_sns .sns8,.mr_sns_m .sns8,.mr_add_m .sns8{background:url(../img/sns_bg.png) -366px -5px no-repeat;}
+.mr_sns .sns9,.mr_sns_m .sns9,.mr_add_m .sns9{background:url(../img/sns_bg.png) -417px -5px no-repeat;}
+.mr_sns .sns10,.mr_sns_m .sns10,.mr_add_m .sns10{background:url(../img/sns_bg.png) -469px -5px no-repeat;}
+.mr_sns .sns11,.mr_sns_m .sns11,.mr_add_m .sns11{background:url(../img/sns_bg.png) -520px -5px no-repeat;}
+.mr_sns .sns12,.mr_sns_m .sns12,.mr_add_m .sns12{background:url(../img/sns_bg.png) -572px -5px no-repeat;}
 .mr_infoed .mr_sns{text-align:center;padding-top:20px;}
 #projectExperience .mr_content_l .l2{padding-top:4px;}
 .mr_ope .mr_delete{position:relative;cursor:pointer;float:right;font-size:16px;color:#ff685e;margin-top:13px;}
