@@ -19,8 +19,8 @@
 <div id="header" class="header">
 	<a href="http://johnsenzhou.github.io/">
 		<div class="header_content">
-			<!--<img src="./img/CgpFT1lc2AeAC8cXAAG6DHPbujo71.jpg" width="30" height="30" alt="johnsen">-->
-			<div></div>
+			<!--header图片-->
+			<!--<div></div>-->
 			<span>Johnsen</span>
 		</div>
 	</a>
@@ -115,7 +115,7 @@
 								</div>
 
 								<div class="mr_content_m olpf">
-									协助开发Hello Kid 官网，趣趣ABC官网的开发，日常H5活动页开发。实习期间学到了前端的工作流程以及对工程的优化，了解到新技术的实用场景，自己的前端技能得到了很大的提升。
+									协助开发Hello Kid 官网，趣趣ABC官网的开发，日常H5活动页开发。
 								</div>
 								</div>
 							</div>
@@ -168,7 +168,7 @@
 									<div class="mr_content_l">
 										<div class="l2">
 											<a class="projectTitle" target="_blank" href="http://www.zwini.org/nurseinfo-web/page/toIndex"><span style="left: 181px;"></span>中卫护理信息管理研究院</a>
-											<p>开发</p>
+											<p>开发人员</p>
 										</div>
 									</div>
 
@@ -186,7 +186,7 @@
 									<div class="mr_content_l">
 										<div class="l2">
 											<a class="projectTitle" target="_blank" href="http://www.hl.ncis.cn/"><span style="left: 133px;"></span>国家护理数据填报</a>
-											<p>开发</p>
+											<p>开发人员</p>
 										</div>
 									</div>
 
@@ -206,7 +206,7 @@
 									<div class="mr_content_l">
 										<div class="l2">
 											<a class="projectTitle nourl">护士管理微应用</a>
-											<p>开发</p>
+											<p>主要开发人员</p>
 										</div>
 									</div>
 
@@ -227,7 +227,7 @@
 									<div class="mr_content_l">
 										<div class="l2">
 											<a class="projectTitle nourl">护士培训项目后台开发</a>
-											<p>主要开发</p>
+											<p>主要开发人员</p>
 										</div>
 									</div>
 
@@ -248,7 +248,7 @@
 									<div class="mr_content_l">
 										<div class="l2">
 											<a class="projectTitle nourl">智能床项目</a>
-											<p>主要开发</p>
+											<p>主要开发人员</p>
 										</div>
 									</div>
 
@@ -270,7 +270,7 @@
 									<div class="mr_content_l">
 										<div class="l2">
 											<a class="projectTitle" target="_blank" href="http://www.hellokid.com/"><span style="left: 91px;"></span>hellokid官网</a>
-											<p>开发</p>
+											<p>开发人员</p>
 										</div>
 									</div>
 
@@ -356,7 +356,7 @@
 									<span class="mr_skill_level">精通</span>
 								</div>
 								<div class="mr_skill_con">
-									<span class="mr_skill_name" title="JAVAScript">JAVAScript</span>
+									<span class="mr_skill_name" title="JAVAScript">JavaScript</span>
 									<span class="mr_skill_plan" data-skilllevel="82">
 									 <!--<em style="width: 309.3px;"></em>-->
 									 <em class="mr_skill_em"></em>
@@ -364,7 +364,7 @@
 									<span class="mr_skill_level">精通</span>
 								</div>
 								<div class="mr_skill_con">
-									<span class="mr_skill_name" title="Reactjs">Reactjs</span>
+									<span class="mr_skill_name" title="Reactjs">React.js</span>
 									<span class="mr_skill_plan" data-skilllevel="80">
 									 <!--<em style="width: 325.7px;"></em>-->
 									 <em class="mr_skill_em"></em>
@@ -372,7 +372,7 @@
 									<span class="mr_skill_level">精通</span>
 								</div>
 								<div class="mr_skill_con">
-									<span class="mr_skill_name" title="NodeJs">NodeJs</span>
+									<span class="mr_skill_name" title="NodeJs">Node.js</span>
 									<span class="mr_skill_plan" data-skilllevel="61">
 									 <!--<em style="width: 260.1px;"></em>-->
 									 <em class="mr_skill_em"></em>
@@ -422,7 +422,7 @@
 			$(document).scroll(function() {
 				// scrollTop 浏览器兼容
 				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				console.log(scrollTop)
+				// console.log(scrollTop)
 				if(scrollTop > 1420) {
 					$('.mr_skill_con .mr_skill_plan').each(function(){
 						var percent = $(this).attr('data-skillLevel');
@@ -436,7 +436,7 @@
 				} else {
 					$('#header').css('opacity', '0');
 				};
-				if ($(this).scrollTop() > 150) { // If the scroll equal 150px
+				if ($(this).scrollTop() > 140) { // If the scroll equal 150px
 					$(".gotop").css({width:"40px",borderRadius:"50px"}); // Show the button by give it (width 40px and border-radius 0px)
 				} else { // else (if the scroll <= 150px )
 					$(".gotop").css({width:"0",borderRadius:"50% 0 0 50%"}); // Return button style to default
