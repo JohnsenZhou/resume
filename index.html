@@ -413,8 +413,8 @@
 			$(document).scroll(function() {
 				// scrollTop 浏览器兼容
 				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-				// console.log(scrollTop)
-				if(scrollTop > 1320) {
+				console.log(scrollTop)
+				if(scrollTop > 1420) {
 					$('.mr_skill_con .mr_skill_plan').each(function(){
 						var percent = $(this).attr('data-skillLevel');
 						var width = $(this).outerWidth();
